@@ -1,0 +1,131 @@
+body {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** HEADER **/
+
+div.container-fluid.main-nav {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    color: #557c3e;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.nav-item {
+    color: #557c3e;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.nav-link {
+    color: #557c3e; 
+}
+
+.my-jumbo {
+    border-radius: 0;
+    justify-content: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 300px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#menu-tile {
+    background: url('../download.png') no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#specials-tile {
+    background: url('../download.png') no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+#map-tile {
+    background: url('../download.png') no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+
+/*** FOOTER ***/
+
+.footer {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer-style {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.copyright-info {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-heading {
+    color: #557c3e;
+    font-size: 130%;
+    font-weight: bold;
+    padding-bottom: 200px;
+}
+
+.testimony-message {
+    font-style: italic;
+}
